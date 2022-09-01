@@ -32,18 +32,41 @@
 
         <!-- Basic Text Info -->
         <fieldset class="formset">
+
+            <!--NAMES-->
             <label for="" id="name-label">
-                Enter Your Name
-                <input type="text" required="required" id="name" placeholder="Enter a Name">
+                Enter Your Names
+                <input type="text" required="required" id="name" placeholder="Enter your Name">
             </label>
+
+            <label for="" id="lastname-label">
+                Enter Your Lastnames
+                <input type="text" required="required" id="lastname" placeholder="Enter your Lastname">
+            </label>
+            <!--NAMES-->
+
+            <!--VALIDATION DATA-->
             <label for="" id="email-label">
                 Enter your Email
                 <input type="email" required="required" id="email" placeholder="Enter a Email">
             </label>
+
+            <label for="" id="password-label">
+                Make a Password
+                <input type="password" required="required" id="password" minlength="8" placeholder="">
+            </label>
+
+            <label for="" id="cpassword-label">
+                Confirm Password
+                <input type="password" required="required" id="cpassword" minlength="8" placeholder="">
+            </label>
+            <!--VALIDATION DATA-->
+
             <label for="" id="number-label">
                 Enter your Age (Optional)
-                <input type="number" id="number" min="13" max="120" placeholder="Enter a Number">
+                <input type="number" id="number" min="4" max="999999999999999" placeholder="Enter a Number">
             </label>
+
         </fieldset>
         <!-- Basic Text Info -->
 
