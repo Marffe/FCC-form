@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+/* Variables */
+/* Base */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  font-size: 22px;
   font-family: "Roboto Mono", monospace;
-}/*# sourceMappingURL=style.css.map */
+  font-size: 22px;
+}
+
+/* Media Queries */
+/* Default */
+/* Media Query Base */
+/* @media (min-width: AAA) and (max-width: AAA) {
+
+}
+*//*# sourceMappingURL=style.css.map */
